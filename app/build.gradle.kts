@@ -50,7 +50,6 @@ dependencies {
     implementation(libs.androidx.activity)
     implementation(libs.androidx.constraintlayout)
 
-    implementation(libs.zxing.android.embedded)
     implementation(project(":QRGenCore"))
 
     coreLibraryDesugaring("com.android.tools:desugar_jdk_libs:2.1.5")
