@@ -51,6 +51,7 @@ dependencies {
     implementation(libs.androidx.constraintlayout)
 
     implementation(project(":QRGenCore"))
+    implementation("com.google.zxing:core:3.5.3")
 
     coreLibraryDesugaring("com.android.tools:desugar_jdk_libs:2.1.5")
 
